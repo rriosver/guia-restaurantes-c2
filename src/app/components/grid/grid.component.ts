@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { Restaurante } from './';
 
 @Component({
   selector: 'app-grid',
@@ -39,7 +40,7 @@ export class GridComponent implements OnInit {
   }
 
 }
-class Restaurante{
+export class Restaurante{
   nombre: string;
   ciudad: string;
 

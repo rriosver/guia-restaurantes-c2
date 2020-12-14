@@ -1,0 +1,17 @@
+
+        <div class="table100">
+            <table>
+              <thead>
+                <tr class="table100-head">
+                  <th class="column1">Restaurante</th>
+                  <th class="column2">Ciudad</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let rest of restaurantes" >
+                    <td class="column1">{{rest.nombre}}</td>
+                    <td class="column2">{{rest.ciudad}}</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
